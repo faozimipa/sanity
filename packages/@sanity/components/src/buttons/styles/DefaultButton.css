@@ -30,10 +30,7 @@
   padding: 0.8em 0.9em;
 
   @nest &.notRecentlyHovered:focus:not(:hover) {
-    overflow: hidden;
-
     @nest & .inner {
-      overflow: hidden;
       animation-name: focused;
       animation-duration: 0.2s;
     }
